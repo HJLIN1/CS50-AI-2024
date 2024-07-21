@@ -1,16 +1,16 @@
 # CS50-AI-2024
 
 ## W0 Search- Degrees 
-degrees.py
+degrees.py\
 util.py
 ## W0 Search- tictactoe project
 tictactoe.py
 
 ## W1 Knowledge-knight
-logic.py
+logic.py\
 puzzle.py
 ## W1 Knowledge-Minesweeper
-minesweeper.py
+minesweeper.py\
 runner.py
 
 ## W2 Uncertainty-pagerank project
@@ -32,5 +32,5 @@ last monthtraffic.py
 ## W6 Language- parser
 parser.py
 ## W6 Language- attention
-mask.py 
+mask.py\ 
 analysis.md
