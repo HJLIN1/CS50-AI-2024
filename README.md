@@ -1,24 +1,24 @@
-# CS50-AI-2024
+# CS50-AI-2024 Projects
 
 ## W0 Search- Degrees 
 degrees.py\
 util.py
-## W0 Search- tictactoe project
+## W0 Search- Tictactoe 
 tictactoe.py
 
-## W1 Knowledge-knight
+## W1 Knowledge-Knight
 logic.py\
 puzzle.py
 ## W1 Knowledge-Minesweeper
 minesweeper.py\
 runner.py
 
-## W2 Uncertainty-pagerank project
+## W2 Uncertainty-Pagerank 
 pagerank.py
-## W2 Uncertainty- heredity project
+## W2 Uncertainty- Heredity 
 heredity.py
 
-## W3 optomization- crossword
+## W3 optomization- Crossword
 generate.py
 
 ## W4 Learning- Shopping
@@ -26,11 +26,11 @@ shopping.py
 ## W4 Learning- Nim
 nim.py
 
-## W5 Neural Network- traffic
+## W5 Neural Network- Traffic
 traffic.py
 
-## W6 Language- parser
+## W6 Language- Parser
 parser.py
-## W6 Language- attention
+## W6 Language- Attention
 mask.py\
 analysis.md
