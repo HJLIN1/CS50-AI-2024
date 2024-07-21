@@ -27,10 +27,10 @@ shopping.py
 nim.py
 
 ## W5 Neural Network- traffic
-last monthtraffic.py
+traffic.py
 
 ## W6 Language- parser
 parser.py
 ## W6 Language- attention
-mask.py\ 
+mask.py\
 analysis.md
