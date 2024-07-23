@@ -107,6 +107,25 @@ def get_model():
         tf.keras.layers.Dense(NUM_CATEGORIES, activation="softmax")
     ])
 
+    # 改良版>> 真的差蠻多的耶
+    model = tf.keras.models.Sequential([
+        tf.keras.layers.Conv2D(32, (3, 3), activation='relu', input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
+        tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
+        tf.keras.layers.BatchNormalization(),
+        tf.keras.layers.Conv2D(64, (3, 3), activation='relu'),
+        tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
+        tf.keras.layers.BatchNormalization(),
+        tf.keras.layers.Conv2D(128, (3, 3), activation='relu'),
+        tf.keras.layers.MaxPooling2D(pool_size=(2, 2)),
+        tf.keras.layers.BatchNormalization(),
+
+        tf.keras.layers.Flatten(),
+        
+        tf.keras.layers.Dense(128, activation='relu'),
+        tf.keras.layers.Dropout(0.5),
+        tf.keras.layers.Dense(NUM_CATEGORIES, activation='softmax')
+    ])
+    
     # Compile the model
     model.compile(
         optimizer="adam",
